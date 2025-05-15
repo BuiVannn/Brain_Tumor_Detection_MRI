@@ -31,21 +31,15 @@ Dưới đây là cấu trúc thư mục và các tệp chính của dự án:
 │   ├── dataset_1/                  # Tập dữ liệu gốc thứ nhất
 │   ├── dataset_2/                  # Tập dữ liệu gốc thứ hai
 │   └── dataset_3/                  # Tập dữ liệu gốc thứ ba
-├── processed_data/
-│   ├── dataset_1_processed/        # Tập dữ liệu 1 đã tiền xử lý (ví dụ: resize)
-│   ├── dataset_2_processed/        # Tập dữ liệu 2 đã tiền xử lý
-│   ├── dataset_3_processed/        # Tập dữ liệu 3 đã tiền xử lý
-│   ├── dataset_1_balanced/         # Tập dữ liệu 1 sau khi cân bằng
-│   ├── dataset_2_balanced/         # Tập dữ liệu 2 sau khi cân bằng
-│   └── dataset_3_balanced/         # Tập dữ liệu 3 sau khi cân bằng
 ├── notebooks/
 │   ├── EDA.ipynb                   # Phân tích khám phá dữ liệu (EDA)
 │   ├── Preprocessing_dataset_1.ipynb # Tiền xử lý cho tập dữ liệu 1
 │   ├── Preprocessing_dataset_2.ipynb # Tiền xử lý cho tập dữ liệu 2
 │   ├── Preprocessing_dataset_3.ipynb # Tiền xử lý cho tập dữ liệu 3
+│   ├── phanloai_dataset_1.ipynb # Chia tập 1 thành train/val/test
+│   ├── phanloai_dataset_2.ipynb # Chia tập 2 thành train/val/test
 │   └── ResNet50V2_voi_Attention_96_.ipynb # Notebook huấn luyện mô hình chính
-├── app/
-│   └── app.py                      # Mã nguồn ứng dụng Streamlit demo
+├── app.py
 └── README.md                       # File hướng dẫn này
 ```
 
